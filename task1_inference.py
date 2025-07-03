@@ -288,6 +288,6 @@ for i in range(21):
         if rank == 1000:
             break
 
-# Save results to TREC submission file. CHANGE NAME!!!!
+# Save results to TREC submission file
 with open("submission_run_xx.trec", "w") as f:
     f.write("\n".join(ranked_results))
